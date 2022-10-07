@@ -4,7 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     test
+
+     <h3>{process.env.NODE_ENV}</h3>
+     <h1>test</h1>
     </div>
   );
 }
